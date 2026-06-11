@@ -233,10 +233,11 @@ text-decoration: none;
 .section3 .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 16px;
-    max-width: 1100px;
-    margin: 60px  100px;
+    width:90%;
+    height: 400px;
+    margin: 30px  auto;
     padding:  60px 100px;
     background-color: #8ad6ef;
     text-align: center;
@@ -396,8 +397,8 @@ textarea {
 .footer1{
 background:black ;
 color: white;
-padding: 20px 50px;
-min-height: 100vh;
+padding: 10px 50px;
+min-height: 100px;
 }
 .ctnr {
     display: flex;
@@ -415,7 +416,7 @@ min-height: 100vh;
     font-size: 20px;
     color: #fffafa;
     line-height: 1.5;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 .footer1 .p2 {
     font-size: 30px;
@@ -426,13 +427,13 @@ min-height: 100vh;
 .footer1 .p1 h2 {
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: #ffffff;
 }
 .footer1 .p2 h3 {
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: #ffffff;
 }
 .footer1 .p2 p {
@@ -486,7 +487,7 @@ transition: 0.3s;
 footer {
     background-color: black;
     color: white;
-    padding: 15px ;
+    padding: 10px ;
     text-align: center;
 }
 
